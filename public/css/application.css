@@ -1,9 +1,70 @@
 .container {
   margin: 20px auto;
-  width: 600px;
+  width: 800px;
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
+  padding-left: 190px;
 }
+
 th {
   text-align: left;
 }
+
+html {
+  background: url('http://fin6.com/wp-content/uploads/2013/08/3fcf4812c774757611496f11dd94cf80.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+li {
+  list-style-type: none;
+  border-bottom: solid gray 2px;
+}
+
+.index_nav {
+  position: fixed;
+  left: 0;
+  padding-top: 35px;
+  top: 0;
+  bottom: 0;
+  border-right-style: 2px solid;
+  background-color: #26665b;
+  width: 150px;
+  background-image: linear-gradient(bottom, rgb(233,172,107) 7%, rgb(255,207,140) 54%, rgb(255,249,168) 77%);
+  background-image: -o-linear-gradient(bottom, rgb(233,172,107) 7%, rgb(255,207,140) 54%, rgb(255,249,168) 77%);
+  background-image: -moz-linear-gradient(bottom, rgb(233,172,107) 7%, rgb(255,207,140) 54%, rgb(255,249,168) 77%);
+  background-image: -webkit-linear-gradient(bottom, rgb(233,172,107) 7%, rgb(255,207,140) 54%, rgb(255,249,168) 77%);
+  background-image: -ms-linear-gradient(bottom, rgb(233,172,107) 7%, rgb(255,207,140) 54%, rgb(255,249,168) 77%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.07, rgb(233,172,107)),
+    color-stop(0.54, rgb(255,207,140)),
+    color-stop(0.77, rgb(255,249,168))
+  );
+}
+
+.index_nav:first-child {
+  padding: 10px 15px;
+  background: #4479BA;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.post_nav_list {
+  line-height: 35px;
+}
+
+a {
+  line-height: 35px;
+  text-decoration:none;
+}
+ 
+a:link {color:black;}      /* unvisited link */
+a:visited {color:black;}  /* visited link */
+a:hover {color:gray;}  /* mouse over link */
+a:active {color:black;}  /* selected link */
